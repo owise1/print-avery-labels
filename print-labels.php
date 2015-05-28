@@ -9,7 +9,7 @@ $dbUser = 'root';
 $dbPass = 'root';
 $dbName = 'crossroads';
 
-$showLabelTemplate = true;
+$showLabelTemplate = false;
 
 mysql_connect($dbServer, $dbUser, $dbPass) or die('no db');
 mysql_select_db($dbName);
